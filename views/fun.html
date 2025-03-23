@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vicky Yan">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Vicky professional website">
+    <title>Vicky Yan</title>
+    
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="../static/script.js"></script>
+
+</head>
+<body onload = "addYear();">
+    <h1 id="webname">Vicky Yan</h1>
+    <nav>
+        <a href="../index.html">about</a>
+        <a href="cv.html">resume</a>
+        <a href="contact.html">contact</a>
+        <a href="fun.html">fun</a>
+    </nav>
+    <div id="mainLayout">
+        <div id="item1">
+            <h2>Things I love to do for fun</h2>
+            <!-- <button id = "showButton" onclick = "showList()">click to see...</button> -->
+                <ul id = "funList">
+                    <li>Produce soundtrack music</li>
+                    <li>Go to the gym</li>
+                    <li>Take the long way home</li>
+                    <li>Draw pivotal scenes from movies</li>
+                    <li>Play softball</li>
+                    <li>Dance!</li>
+                    <li>Appreciate pretty things</li>
+                </ul>
+        </div>
+
+        <div id="item2">
+            <img src="png.png" class="funIMG" alt="">
+        </div>
+        <div id="item3">
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/EQIlPsQ2zHo?si=N86FNfAp6dU_eHIa"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                >
+            </iframe>
+        </div>
+        <div id="item4" class="container">
+            <h2>Need Some Advice?</h2>
+            <p id="adviceText">Click on the button to get advice!</p>
+            <button id="advice" onclick="getAdvice()">Yommy</button>
+        </div>
+    </div>
+    <footer id="copyYear">designed and coded by vicky yan &copy; </footer>
+</body>
+</html>
