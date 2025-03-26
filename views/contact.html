@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vicky Yan">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Vicky professional website">
+    <title>Vicky Yan</title>
+
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="../static/script.js"></script>
+
+</head>
+<body onload = "addYear();">
+    <h1 id="webname">Vicky Yan</h1>
+    <nav>
+        <a href="../index.html">about</a>
+        <a href="cv.html">resume</a>
+        <a href="contact.html">contact</a>
+        <a href="fun.html">fun</a>
+    </nav>
+    <div class="main">
+        <h2>Contact Me</h2>
+
+        <div class="container">
+            <form id = "contactForm">
+                <div>
+                    <label for="name">Name (required):</label>
+                    <input type="text" id="name" name="name" required>
+                    <span id="nameError" class="error-message"></span>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span id="emailError" class="error-message"></span>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <span id="messageError" class="error-message"></span>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <br>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>My contact</td>
+                </tr>
+                <tr>
+                    <td>Instagram</td>
+                    <td>@notvickyyan</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>vyy@andrew.cmu.edu</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>4049358388</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer id="copyYear">designed and coded by vicky yan &copy; </footer>
+</body>
+</html>
